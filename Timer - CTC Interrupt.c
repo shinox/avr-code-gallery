@@ -44,7 +44,7 @@ ISR (TIMER1_COMPA_vect)
 {
     // toggle led here
     PORTC ^= (1 << 0);
-{
+}
 
 int main(void)
 {
